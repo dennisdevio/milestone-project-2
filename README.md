@@ -115,7 +115,8 @@
 ## Deployment
 
 ### Hosting Platform
-
+The website is hosted on 
+- [GitHub Pages](https://pages.github.com/) and can be viewed [here](https://tetrapak-dev.github.io/milestone-project-2/)
 
 
 ### Repository
