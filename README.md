@@ -6,7 +6,7 @@ The purpose of this website is to provide easily accessible real-time weather in
 
 
 ## Showcase
-Click [here](https://tetrapak-dev.github.io/milestone-project-1/) to view the website and see the weather forecast in real-time.
+Click [here](https://tetrapak-dev.github.io/milestone-project-2/) to view the website and see the weather forecast in real-time.
 
 
 
