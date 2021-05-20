@@ -119,8 +119,8 @@
 
 
 ### Repository
-
-
+This project reposity is hosted on  
+- [GitHub](https://github.com/) - you can find it at [this link](https://tetrapak-dev.github.io/milestone-project-2/)
 
 ### Results and Conclusion
 
