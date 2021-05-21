@@ -1,6 +1,6 @@
 # Helios Weather Forecast
-This website called Helios, which is the name of the sun god in ancient greek mythology, is a real time weather forecast service providing weather information on different locations through a interactive map.
-The purpose of this website is to provide easily accessible real-time weather information in a fun and interactive way.
+This website called Helios is a real time weather forecast service that provides weather forecasts across Europe through a interactive map. The name Helios was the name of the sun god in ancient greek mythology.
+The purpose of this website is to provide easily accessible real-time weather information in a fun and interactive way across all devices and screen sizes.
 
 
 
