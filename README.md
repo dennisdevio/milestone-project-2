@@ -27,7 +27,11 @@ Click [here](https://tetrapak-dev.github.io/milestone-project-2/) to view the we
 
 
 ### Wireframes
+I decided to go with three wireframes, for large screens, medium size screens and small screens. Each wireframe contains two main sections, one with an interactive map and the other with weather forecast information such as sunny, cloudy or rainy weather, expected temperatures and so on.
 
+The wireframes were created using - [InVision](https://www.invisionapp.com/). 
+
+The wireframes for this website can be found [here](https://dennischmielewski323696.invisionapp.com/freehand/Helios-Weather-Forecast-bgy1wmerW)
 
 
 
