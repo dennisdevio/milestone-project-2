@@ -146,7 +146,7 @@ This project reposity is hosted on
 
 ### Acknowledgements
 - My mentor [Akshat Garg](https://github.com/akshatnitd) for his advice and support.
-- Code Institute's Slack community and Tutor Support.
+- [Code Institute](https://codeinstitute.net/)'s Slack community and Tutor Support.
 
 
 
