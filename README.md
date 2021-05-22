@@ -14,6 +14,7 @@ Click [here](https://tetrapak-dev.github.io/milestone-project-2/) to view the we
 
 
 ### User Stories
+My goal was to create an appealing and easily comprehensible website design that presents the latest weather forecast information no matter where you are, that is easy to and works smoothly on all devices. As the data presented can be percieved as somewhat complex I felt it was important to present it in such a way that it is clear and easy to understand no matter who you are and what device you are using.
 
 #### First Time User Goals
 - As a first time user I want to be able to easily get the latest real-time weather info about my location wherever I am at in Europe.
