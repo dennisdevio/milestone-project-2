@@ -57,20 +57,17 @@ The wireframes for this website can be found [here](https://dennischmielewski323
 
 
 ## Technologies
-The technologies used to build this website are the follwing
+The technologies used to build this website are the following
 
 - [Gitpod](https://www.gitpod.io/) IDE for all code editing.
 - [Pixabay](https://pixabay.com/) for the image used in the Favicons. 
 - [TinyPNG](https://tinypng.com/) for compressing the image downloaded from Pixabay to decrease load times of the website.
-- [favicon.io](https://favicon.io/) for converting the image compressed with TinyPNG, to '.ico' format used in the Favicon. 
-
-
-
-
-
-
+- [favicon.io](https://favicon.io/) for converting the image compressed with TinyPNG, to '.ico' format to be used as the Favicon. 
 
 ### Languages 
+- [HTML5](https://en.wikipedia.org/wiki/HTML5) HTML5 was utilized for laying the foundation and structuring the basis of the website content. 
+- [CSS3](https://en.wikipedia.org/wiki/CSS#CSS_3) CSS3 was utilized for the placement and styling of all HTML5 content on the website. 
+- [JavaScript](https://en.wikipedia.org/wiki/JavaScript) was utilized for creating animations on the website as well as creating interactivity with, and generating real-time information for the user.
 
 
 
