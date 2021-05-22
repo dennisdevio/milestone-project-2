@@ -60,7 +60,7 @@ The wireframes for this website can be found [here](https://dennischmielewski323
 The technologies used to build this website are the follwing
 
 - [Gitpod](https://www.gitpod.io/) IDE for all code editing.
-- [Pixabay](https://pixabay.com/) for the images used in the Favicons. 
+- [Pixabay](https://pixabay.com/) for the image used in the Favicons. 
 - [TinyPNG](https://tinypng.com/) for compressing the image downloaded from Pixabay to decrease load times of the website.
 - [favicon.io](https://favicon.io/) for converting the image compressed with TinyPNG, to '.ico' format used in the Favicon. 
 
