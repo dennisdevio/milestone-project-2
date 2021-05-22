@@ -16,7 +16,9 @@ Click [here](https://tetrapak-dev.github.io/milestone-project-2/) to view the we
 ### User Stories
 
 #### First Time User Goals
-
+- As a first time user I want to be able to easily get the latest real-time weather info about my location wherever I am at in Europe.
+- As a first time user I want to be able to easily get the latest real-time weather info about other locations for my travel needs in Europe.
+- As a first time user I want to be albe to find all the weather information you provide especially on mobile since my choices for the day or week may be affected depending on the weather.
 
 
 
