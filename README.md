@@ -42,9 +42,16 @@ The wireframes for this website can be found [here](https://dennischmielewski323
 
 
 ### Design
+The structure is of the website is laid out in such a way that the interactive map is the main feature of the website. The map itself provides information on the name and address as well as weather information of the place the user clicks on. The map data is presented in a modal that pops up when clicked. Additionally, on larger and medium sized screens the current and coming weather information is presented next to the map. On smaller mobile devices all weather information is presented underneath the map. The data presented outside the map is more extensive and is presented in tables where the current weather information is highlighted in a larger size and the coming weather forecast is presented below that in a smaller size.
+
+To create a pleasant "light and airy" feel of the website the color theme is white and the font color is a type of gray rather than a standard black font color. The headings font style is set to 'Noto Sans KR' and the paragraph text font style is set to 'Open Sans' which both contribute to that light and airy feel I was after.
+
+Furthermore the logo is an animated sun which I think adds to that light and happy feeling and the name of the website comes from the sun god in ancient greek mythology which I found quite fitting to go with the theme.
 
 
 ## Features
+
+I will possibly implement a dark theme with inverted colors. I find this very useful as it is very easy on the eyes. It is a feature I use as a default on all kind of devices and applications myself.
 
 
 
@@ -63,6 +70,7 @@ The technologies used to build this website are the following
 - [Pixabay](https://pixabay.com/) for the image used in the Favicons. 
 - [TinyPNG](https://tinypng.com/) for compressing the image downloaded from Pixabay to decrease load times of the website.
 - [favicon.io](https://favicon.io/) for converting the image compressed with TinyPNG, to '.ico' format to be used as the Favicon. 
+- [Google Fonts](https://fonts.google.com/share?selection.family=Noto%20Sans%20KR%7COpen%20Sans) for the fonstyles 'Noto Sans KR' and 'Open Sans' used on the website. 
 
 ### Languages 
 - [HTML5](https://en.wikipedia.org/wiki/HTML5) HTML5 was utilized for laying the foundation and structuring the basis of the website content. 
