@@ -39,11 +39,9 @@ The wireframes for this website can be found [here](https://dennischmielewski323
 
 
 ### Structure
-
-
-### Design
 The structure is of the website is laid out in such a way that the interactive map is the main feature of the website. The map itself provides information on the name and address as well as weather information of the place the user clicks on. The map data is presented in a modal that pops up when clicked. Additionally, on larger and medium sized screens the current and coming weather information is presented next to the map. On smaller mobile devices all weather information is presented underneath the map. The data presented outside the map is more extensive and is presented in tables where the current weather information is highlighted in a larger size and the coming weather forecast is presented below that in a smaller size.
 
+### Design
 To create a pleasant "light and airy" feel of the website the color theme is white and the font color is a type of gray rather than a standard black font color. The headings font style is set to 'Noto Sans KR' and the paragraph text font style is set to 'Open Sans' which both contribute to that light and airy feel I was after.
 
 Furthermore the logo is an animated sun which I think adds to that light and happy feeling and the name of the website comes from the sun god in ancient greek mythology which I found quite fitting to go with the theme.
