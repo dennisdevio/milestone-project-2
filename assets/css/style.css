@@ -42,3 +42,35 @@ p {
     border: 1px solid lightslategray;
     border-radius: 3px;
 }
+
+
+
+/* ABOUT SECTION */
+
+.about {
+    height: 200px;
+}
+
+
+
+/* MAP SECTION */
+
+.weather-map {
+    height: 300px;
+}
+
+
+
+/* WEATHER INFO SECTION */
+
+.weather-info {
+    height: 200px;
+}
+
+
+
+/* FOOTER */
+
+footer {
+    height: 100px;
+}
