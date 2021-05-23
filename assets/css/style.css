@@ -10,7 +10,12 @@
 
 /* NAVBAR */
 
+.navbar {
+    font-size: 140%;
+}
+
 .logo {
-    width: 50px;
+    width: 40px;
     height: auto;
+    padding-right: 5px;
 }
