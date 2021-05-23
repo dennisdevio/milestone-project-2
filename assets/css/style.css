@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&family=Open+Sans&display=swap');
 /* BODY */
 
 * {
@@ -6,12 +7,17 @@
     border: 0;
 }
 
+p {
+    font-family: 'Open Sans', sans-serif;
+}
+
 
 
 /* NAVBAR */
 
 .navbar {
     font-size: 140%;
+    font-family: 'Noto Sans KR', sans-serif;
 }
 
 .logo {
