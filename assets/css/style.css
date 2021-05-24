@@ -20,9 +20,17 @@ p {
 
 /* NAVBAR */
 
+header {
+    height: 100px;
+}
+
 .navbar {
     font-size: 140%;
     font-family: 'Noto Sans KR', sans-serif;
+}
+
+.navbar a {
+    text-decoration: none;
 }
 
 .logo {
