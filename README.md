@@ -1,6 +1,6 @@
 # Helios Weather Forecast
-This website called Helios is a real time weather forecast service that provides weather forecasts across Europe through a interactive map. The name Helios was the name of the sun god in ancient greek mythology.
-The purpose of this website is to provide easily accessible real-time weather information in a fun and interactive way across all devices and screen sizes.
+This website called Helios is a real time weather forecast service that provides weather forecasts across Europe through an interactive map. The name Helios was the name of the sun god in ancient greek mythology. I chose the name Helios because it seemed quite fitting.
+The purpose of this website is to provide easily accessible real-time weather information in an appealing and interactive way across all devices and screen sizes.
 
 
 
@@ -13,7 +13,7 @@ Click [here](https://tetrapak-dev.github.io/milestone-project-2/) to view the we
 ## UX
 
 ### User Stories
-My goal was to create an appealing and easily comprehensible website design that presents the latest weather forecast information no matter where you are, that is easy to and works smoothly on all devices. As the data presented can be percieved as somewhat complex I felt it was important to present it in such a way that it is clear and easy to understand no matter who you are and what device you are using.
+My goal was to create an appealing and easily comprehensible website design that presents the latest weather forecast information no matter where you are, that is easy to use and works smoothly on all devices. As the data presented can be percieved as somewhat complex I felt it was important to present it in such a way that it is clear and easy to understand no matter who you are and what device you are using.
 
 #### First Time User Goals
 - As a first time user I want to be able to easily get the latest real-time weather info about my location wherever I am at in Europe.
@@ -39,7 +39,7 @@ The wireframes for this website can be found [here](https://dennischmielewski323
 
 
 ### Structure
-The structure is of the website is laid out in such a way that the interactive map is the main feature of the website. The map itself provides information on the name and address as well as weather information of the place the user clicks on. The map data is presented in a modal that pops up when clicked. Additionally, on larger and medium sized screens the current and coming weather information is presented next to the map. On smaller mobile devices all weather information is presented underneath the map. The data presented outside the map is more extensive and is presented in tables where the current weather information is highlighted in a larger size and the coming weather forecast is presented below that in a smaller size.
+The structure of the website is laid out in such a way that the interactive map is the main feature of the website. The map itself provides information on the name and address as well as weather information of the place the user clicks on. The map data is presented in a modal that pops up when clicked. Additionally, on larger and medium sized screens the current and coming weather information is presented next to the map in two tables. On smaller mobile devices all weather information is presented in tables underneath the map instead. The data presented outside the map is more extensive and is presented in a way where the current weather information is highlighted in a larger size and the coming weather forecast is presented below that in a smaller size.
 
 ### Design
 To create a pleasant "light and airy" feel of the website the color theme is white and the font color is a type of gray rather than a standard black font color. The headings font style is set to 'Noto Sans KR' and the paragraph text font style is set to 'Open Sans' which both contribute to that light and airy feel I was after.
@@ -48,15 +48,14 @@ Furthermore the logo is an animated sun which I think adds to that light and hap
 
 
 ## Features
+The website has a favicon that can be used as an app icon on mobile devices. Take a look here.
 
-I will possibly implement a dark theme with inverted colors. I find this very useful as it is very easy on the eyes. It is a feature I use as a default on all kind of devices and applications myself.
 
 
 
 
 #### Features Left to Implement
-
-
+I will possibly implement a dark theme with inverted colors. I find this very useful as it is very easy on the eyes. It is a feature I use as a default on all kind of devices and applications myself.
 
 
 
