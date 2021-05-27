@@ -68,6 +68,8 @@ The technologies used to build this website are the following
 - [TinyPNG](https://tinypng.com/) for compressing the image downloaded from Pixabay to decrease load times of the website.
 - [favicon.io](https://favicon.io/) for converting the image compressed with TinyPNG, to '.ico' format to be used as the Favicon. 
 - [Google Fonts](https://fonts.google.com/share?selection.family=Noto%20Sans%20KR%7COpen%20Sans) for the fonstyles 'Noto Sans KR' and 'Open Sans' used on the website. 
+- [Font Awesome](https://fontawesome.com/start) for all website icons.
+
 
 ### Languages 
 - [HTML5](https://en.wikipedia.org/wiki/HTML5) HTML5 was utilized for laying the foundation and structuring the basis of the website content. 
