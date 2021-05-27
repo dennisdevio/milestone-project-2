@@ -39,6 +39,11 @@ header {
     text-decoration: none;
 }
 
+nav a:hover {
+    font-size: smaller;
+    color: rgba(17, 17, 26, 0.5) !important;
+}
+
 .logo {
     width: 40px;
     height: auto;
