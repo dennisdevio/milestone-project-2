@@ -77,7 +77,7 @@ The technologies used to build this website are the following
 
 
 ### Frameworks
-
+- [Bootstrap v5.0](https://getbootstrap.com/docs/5.0/getting-started/introduction/) Bootstrap 5 was used to implement a responsive mobile-first design on the website.
 
 ### Libraries 
 
