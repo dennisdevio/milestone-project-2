@@ -31,6 +31,8 @@ header {
 .navbar {
     font-size: 140%;
     font-family: 'Noto Sans KR', sans-serif;
+    height: 75px;
+    background-color: lightslategrey;
 }
 
 .navbar a {
@@ -73,5 +75,6 @@ header {
 /* FOOTER */
 
 footer {
-    height: 100px;
+    height: 75px;
+    background-color: lightslategrey;
 }
