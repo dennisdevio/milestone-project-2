@@ -16,8 +16,8 @@ Click [here](https://tetrapak-dev.github.io/milestone-project-2/) to view the we
 My goal was to create an appealing and easily comprehensible website design that presents the latest weather forecast information no matter where you are, that is easy to use and works smoothly on all devices. As the data presented can be percieved as somewhat complex I felt it was important to present it in such a way that it is clear and easy to understand no matter who you are and what device you are using.
 
 #### First Time User Goals
-- As a first time user I want to be able to easily get the latest real-time weather info about my location wherever I am at in Europe.
-- As a first time user I want to be able to easily get the latest real-time weather info about other locations for my travel needs in Europe.
+- As a first time user I want to be able to easily get the latest real-time weather info about my location wherever I am.
+- As a first time user I want to be able to easily get the latest real-time weather info about other locations for my travel needs.
 - As a first time user I want to be albe to find all the weather information you provide especially on mobile since my choices for the day or week may be affected depending on the weather.
 
 #### Returning User Goals
@@ -45,6 +45,8 @@ The structure of the website is laid out in such a way that the interactive map 
 To create a pleasant "light and airy" feel of the website the color theme is white and the font color is a type of gray rather than a standard black font color. The headings font style is set to 'Noto Sans KR' and the paragraph text font style is set to 'Open Sans' which both contribute to that light and airy feel I was after.
 
 Furthermore the logo is an animated sun which I think adds to that light and happy feeling and the name of the website comes from the sun god in ancient greek mythology which I found quite fitting to go with the theme.
+
+To make the website responsive I initially set out to use CSS Grid but after running into problems with it and not fully understanding it yet, I decided to go with Bootstrap instead to be able to meet the deadline, since I have prior experiece with it.
 
 
 ## Features
