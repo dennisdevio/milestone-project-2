@@ -31,7 +31,7 @@ header {
 .navbar {
     font-size: 140%;
     font-family: 'Noto Sans KR', sans-serif;
-    height: 60px;
+    height: 58px;
     background-color: #8ce2ff;
 }
 
@@ -92,7 +92,7 @@ ul {
 }
 
 footer {
-    height: 60px;
+    height: 58px;
     background-color: #8ce2ff;
     text-align: center;
 }
