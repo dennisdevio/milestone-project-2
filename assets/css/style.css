@@ -74,7 +74,15 @@ header {
 
 /* FOOTER */
 
+ul {
+    list-style: none;
+}
+
 footer {
     height: 75px;
     background-color: lightslategrey;
+}
+
+footer i {
+    display: inline;
 }
