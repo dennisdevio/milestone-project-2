@@ -40,6 +40,10 @@ header {
     color: #060606 !important;
 }
 
+.nav-links a {
+    font-size: smaller;
+}
+
 nav a:hover {
     color: rgba(17, 17, 26, 0.5) !important;
 }
