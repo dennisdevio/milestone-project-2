@@ -64,9 +64,9 @@
                 Helios Weather Forecast is a weather service that provide real-time weather information.
                 <br>
                 Click our map to view any location you like for current weather info.
-                <br<>
+                <br>
                 If you have any question, feel free to reach out to us through our links below.
-                <b>
+                <br>
                 We hope you enjoy our app!
             </p>
         </div>
@@ -74,20 +74,13 @@
 
    
     <!-- MAP SECTION -->
-    <section>
-        <div class="weather-map">
-            <p>placeholder interactive map</p>
-        </div>
-    </section>
-    
 
+        <!-- GET LAT & LONG POSITION OF MAP WHEN CLICKED -->
 
-    <!-- WEATHER INFO SECTION -->
-    <section>
-        <div class="weather-info">
-            <p>placeholder weather info and status</p>
-        </div>
-    </section>
+    <div id="map"></div>
+
+    <script src="https://maps.googleapis.com/maps/api/js?key=api.openweathermap.org/data/2.5/weather?q=London,uk&APPID=1e6714aaee09a8d6bf6a45044ae56971&callback=initMap&libraries=&v=weekly"
+    async></script>
 
 
     
