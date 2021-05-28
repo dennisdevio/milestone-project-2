@@ -64,28 +64,8 @@ button:hover {
 }
 
 
-/* ABOUT SECTION */
 
-
-             /* COMMENT OUT TO BUILD MODAL 
-
-.about {
-    height: 200px;
-}
-
-.about p {
-    margin-top: 100px;
-}
-
-             */
-
-
-
-
-
-/* 'ABOUT' MODAL */
-
-
+/* 'ABOUT INFO' MODAL */
 
     /* MODAL BACKGROUND */
 
@@ -129,8 +109,6 @@ button:hover {
 
 
 
-
-
 /* MAP SECTION */
 
 .weather-map {
@@ -159,7 +137,6 @@ footer {
     text-align: center;
     color: #060606;
 }
-
 
 footer i {
     display: inline;
