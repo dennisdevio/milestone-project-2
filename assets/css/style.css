@@ -109,12 +109,16 @@ button:hover {
 
 
 
-/* MAP SECTION */
+/* MAP SECTION 
 
 .weather-map {
     height: 400px;
-}
+} */
 
+#map {
+    height: 500px;
+    width: 500px;
+    }
 
 
 /* FOOTER */
