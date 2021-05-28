@@ -79,11 +79,11 @@ function initMap() {
   }
 
 
-  
+
   function getFormattedAddressfromLatLng(lat, lng) {
     
     // Make API call
-    api.openweathermap.org/data/2.5/weather?q=London,uk&APPID=1e6714aaee09a8d6bf6a45044ae56971
+    // api.openweathermap.org/data/2.5/weather?q=London,uk&APPID=1e6714aaee09a8d6bf6a45044ae56971
 
     fetch("https://maps.googleapis.com/maps/api/geocode/json?latlng=lat,lng&key=1e6714aaee09a8d6bf6a45044ae56971").then((data) => {
       return data.results[0].formatted_address;
