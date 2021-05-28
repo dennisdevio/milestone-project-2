@@ -87,7 +87,7 @@ button:hover {
     background-color: rgba(255, 215, 37, 0.992);
     margin: 10% auto;
     padding: 10px;
-    border-radius: 5px;
+    border-radius: 10px;
     width: 80;
 }
 
@@ -113,14 +113,6 @@ button:hover {
 
 .weather-map {
     height: 400px;
-}
-
-
-
-/* WEATHER INFO SECTION */
-
-.weather-info {
-    height: 200px;
 }
 
 
