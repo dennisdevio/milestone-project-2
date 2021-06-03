@@ -50,14 +50,15 @@ To make the website responsive I initially set out to use CSS Grid but after run
 
 
 ## Features
-The website has a favicon that can be used as an app icon on mobile devices. Take a look here.
-
-
-
-
+- Responsive Design across all device sizes, including a hamburger menu button on smaller screens.
+- A favicon that can be used as an app icon on mobile devices. Take a look here.
+- A map that shows local weather information for the locaction you click on.
+- Additional weather data that is presented below the map when clicked.
 
 #### Features Left to Implement
-I will possibly implement a dark theme with inverted colors. I find this very useful as it is very easy on the eyes. It is a feature I use as a default on all kind of devices and applications myself.
+- A searchbox where the user can input their location of choice get the weather information that way in addition to clicking the map.
+- A contact form with the option to send an e-mail to the weather service.
+- A dark theme to provide the option change the white background.
 
 
 
