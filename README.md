@@ -56,9 +56,9 @@ To make the website responsive I initially set out to use CSS Grid but after run
 - Additional weather data that is presented below the map when clicked.
 
 #### Features Left to Implement
-- A searchbox where the user can input their location of choice get the weather information that way in addition to clicking the map.
+- A searchbox where the user can input their location of choice, either a country or a city, to get the weather information that way in addition to clicking the map.
 - A contact form with the option to send an e-mail to the weather service.
-- A dark theme to provide the option change the white background.
+- A dark mode button or slide to provide the option change the white background to a softer color.
 
 
 
