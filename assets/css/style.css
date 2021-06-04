@@ -162,10 +162,17 @@ footer {
     color: #060606;
 }
 
-footer i {
+footer li {
     display: inline;
+    padding: 15px;
 }
 
-footer a:hover {
+footer i {
+    color: #060606;
+    font-size: 140%;
+    margin-top: 15px;
+}
+
+footer i:hover {
     color: rgba(17, 17, 26, 0.5);
 }
