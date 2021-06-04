@@ -144,8 +144,6 @@ button:hover {
 #map {
     padding-top: 20px;
     height: 500px;
-    width: 500px;
-    align-content: center;
 }
 
 
@@ -175,4 +173,8 @@ footer i {
 
 footer i:hover {
     color: rgba(17, 17, 26, 0.5);
+}
+
+.copyright:hover {
+   color: #060606;
 }
