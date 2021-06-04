@@ -65,9 +65,12 @@ button:hover {
 
 
 
-/* 'ABOUT INFO' MODAL */
+/* COMMENTED OUT MODAL STYLING 
 
-    /* MODAL BACKGROUND */
+
+'ABOUT INFO' MODAL 
+
+   MODAL BACKGROUND
 
 .modal {
     display: none;
@@ -81,7 +84,7 @@ button:hover {
     background-color: rgba(0, 0, 0, 0,2);
 }
 
-    /* MODAL BOX */
+    MODAL BOX 
 
 .modal-text {
     background-color: rgba(255, 215, 37, 0.992);
@@ -91,7 +94,7 @@ button:hover {
     width: 80;
 }
 
-    /* EXIT BUTTON */
+    EXIT BUTTON 
 
 .exit-modal {
     color: rgba(17, 17, 26, 0.5);
@@ -107,6 +110,8 @@ button:hover {
     text-decoration: none;
 }
 
+*/
+
 
 
 /* MAP SECTION 
@@ -114,6 +119,9 @@ button:hover {
 .weather-map {
     height: 400px;
 } */
+
+
+
 
 #map {
     height: 500px;
