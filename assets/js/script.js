@@ -1,3 +1,7 @@
+/*   COMMENT OUT MODAL TEMPORARILY
+
+
+
 // OBTAIN MODAL
 
 var modal = document.getElementById("aboutModal");
@@ -42,6 +46,11 @@ window.onclick = function(event) {
     }
 
 }
+
+
+
+*/
+
 
 
 
