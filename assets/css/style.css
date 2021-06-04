@@ -137,9 +137,8 @@ button:hover {
 
 /* WEATHER DATA SECTION */
 
-.weather-data h2 {
-    font-style: italic;
-    padding-bottom: 20px;
+.weather-data h4 {
+    padding-bottom: 10px;
 }
 
 #map {
