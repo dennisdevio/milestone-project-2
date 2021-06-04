@@ -51,9 +51,9 @@ To make the website responsive I initially set out to use CSS Grid but after run
 
 ## Features
 - Responsive Design across all device sizes, including a hamburger menu button on smaller screens.
-- A favicon that can be used as an app icon on mobile devices. Take a look here.
 - A map that shows local weather information for the locaction you click on.
 - Additional weather data that is presented below the map when clicked.
+- A favicon that can be used as an app icon on mobile devices. Take a look here.
 
 #### Features Left to Implement
 
