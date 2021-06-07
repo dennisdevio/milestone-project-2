@@ -57,6 +57,7 @@ I added smooth scrolling behavior to the website to make the user experience mor
 - Additional weather data that is presented below the map when clicked.
 - A favicon that can be used as an app icon on mobile devices for convenience and a more professional impression.
 
+To add the favicon to the mobile device I converted my logo image to a .ico file, then opened the website in my Firefox mobile browser and from the menu clicked the "Add to Home screen" option.
 #### Features Left to Implement
 
 Due to time constrains I was not able to implement all the features I ideally wanted to implement.
