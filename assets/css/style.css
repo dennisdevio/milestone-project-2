@@ -37,6 +37,7 @@ header {
     font-family: 'Noto Sans KR', sans-serif;
     height: 58px;
     background-color: #8ce2ff;
+    box-shadow: rgba(17, 17, 26, 0.5) 0px 0px 5px 1px;
 }
 
 .navbar a {
@@ -115,6 +116,7 @@ footer {
     background-color: #8ce2ff;
     text-align: center;
     color: #060606;
+    box-shadow: rgba(17, 17, 26, 0.5) 0px 0px 5px 1px;
 }
 
 footer li {
