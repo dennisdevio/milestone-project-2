@@ -1,5 +1,5 @@
 # Helios Weather Forecast
-This website called Helios is a real time weather forecast service that provides weather forecasts across Europe through an interactive map. The name Helios was the name of the sun god in ancient greek mythology. I chose the name Helios because it seemed quite fitting.
+This website called Helios is a real time weather forecast service that provides weather forecasts world-wide through an interactive map. The name Helios was the name of the sun god in ancient greek mythology. I chose the name Helios because it seemed quite fitting.
 The purpose of this website is to provide easily accessible real-time weather information in an appealing and interactive way across all devices and screen sizes.
 
 
@@ -51,11 +51,12 @@ To make the website responsive I initially set out to use CSS Grid but after run
 - Responsive Design across all device sizes, including a hamburger menu button on smaller screens.
 - A map that shows local weather information for the locaction you click on.
 - Additional weather data that is presented below the map when clicked.
-- A favicon that can be used as an app icon on mobile devices. Take a look here.
+- A favicon that can be used as an app icon on mobile devices for convenience and a more professional impression.
 
 #### Features Left to Implement
 
-The following features will be implemented on a future release
+Due to time constrains I was not able to implement all the features I ideally wanted to implement.
+The following features will therefore be implemented on a future release:
 
 - A searchbox where the user can input their location of choice, either a country or a city, to get the weather information that way in addition to clicking the map.
 - A contact form with the option to send an e-mail to the weather service.
