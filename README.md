@@ -10,6 +10,8 @@ Click [here](https://tetrapak-dev.github.io/milestone-project-2/) to view the we
 
 I additionally made a favicon icon for mobile devices
 
+![favicon_icon_showcase](https://github.com/tetrapak-dev/milestone-project-2/blob/master/assets/images/favicon_icon_showcase.png)
+
 ## UX
 
 ### User Stories
