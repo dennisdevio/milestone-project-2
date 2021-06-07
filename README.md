@@ -65,7 +65,11 @@ The following features will therefore be implemented on a future release:
 The technologies used to build this website are the following
 
 - [Gitpod](https://www.gitpod.io/) IDE for all code editing.
-- [Firefox Devtools](https://developer.mozilla.org/en-US/docs/Tools) for all testing throughout the development process.
+- [Firefox Devtools](https://developer.mozilla.org/en-US/docs/Tools) for all functional testing throughout the development process.
+- [Lighthouse](https://developers.google.com/web/tools/lighthouse/) for performance testing of the website.
+- [The W3C Markup Validator](https://validator.w3.org/) for testing of all HTML code.
+- [The W3C CSS Validator](https://jigsaw.w3.org/css-validator/) for testing of all CSS code.
+- [JSHint](https://jshint.com/) for testing of all JavaScript code.
 - [Pixabay](https://pixabay.com/) for the image used in the Favicons. 
 - [TinyPNG](https://tinypng.com/) for compressing the image downloaded from Pixabay to decrease load times of the website.
 - [favicon.io](https://favicon.io/) for converting the image compressed with TinyPNG, to '.ico' format to be used as the Favicon. 
