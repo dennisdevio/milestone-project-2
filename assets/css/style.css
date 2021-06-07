@@ -79,61 +79,6 @@ button:hover {
 }
 
 
-/* COMMENTED OUT MODAL STYLING 
-
-
-'ABOUT INFO' MODAL 
-
-   MODAL BACKGROUND
-
-.modal {
-    display: none;
-    z-index: 1;
-
-
-    position: fixed;
-    width: 100%;
-    height: 100%;
-    overflow: auto;
-    background-color: rgba(0, 0, 0, 0,2);
-}
-
-    MODAL BOX 
-
-.modal-text {
-    background-color: rgba(255, 215, 37, 0.992);
-    margin: 10% auto;
-    padding: 10px;
-    border-radius: 10px;
-    width: 80;
-}
-
-    EXIT BUTTON 
-
-.exit-modal {
-    color: rgba(17, 17, 26, 0.5);
-    float: right;
-    font-size: 30px;
-    font-weight: bold;
-}
-
-.exit-modal:hover,
-.exit-modal:focus {
-    color: #060606;
-    cursor: pointer;
-    text-decoration: none;
-}
-
-*/
-
-
-
-/* MAP SECTION 
-
-.weather-map {
-    height: 400px;
-} */
-
 
 /* WEATHER DATA SECTION */
 
@@ -145,6 +90,7 @@ button:hover {
     padding-top: 20px;
     height: 500px;
 }
+
 
 
 /* FOOTER */
