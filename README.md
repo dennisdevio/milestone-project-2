@@ -8,7 +8,7 @@ The purpose of this website is to provide easily accessible real-time weather in
 ## Showcase
 Click [here](https://tetrapak-dev.github.io/milestone-project-2/) to view the website and see the weather forecast in real-time.
 
-
+I additionally made a favicon icon for mobile devices
 
 ## UX
 
@@ -24,10 +24,6 @@ My goal was to create an appealing and easily comprehensible website design that
 - As a returning user I want to know your website is reliable on all devices I might use.
 - As a returning user I want the information you provide to be presented in a clear way on all devices I might use.
 - As a returning user I want to know the information you provide is relaible and accurate in any given situation.
-
-
-
-
 
 ### Wireframes
 I decided to go with three wireframes, for large screens, medium size screens and small screens. Each wireframe contains two main sections, one with an interactive map and the other with weather forecast information such as sunny, cloudy or rainy weather, expected temperatures and so on.
@@ -146,15 +142,10 @@ The website is hosted on
 This project reposity is hosted on  
 - [GitHub](https://github.com/) - you can find it at [this link](https://tetrapak-dev.github.io/milestone-project-2/)
 
-### Results and Conclusion
 
 
 ## Credits
 
-
-
-
-### Inspiration
 
 
 ### Acknowledgements
