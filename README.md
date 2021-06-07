@@ -4,6 +4,7 @@ The purpose of this website is to provide easily accessible real-time weather in
 
 ## Showcase
 Click [here](https://tetrapak-dev.github.io/milestone-project-2/) to view the website and see the weather forecast in real-time.
+![showcase_helios_weather_forecast](https://github.com/tetrapak-dev/milestone-project-2/blob/master/assets/images/showcase_helios_weather_forecast.png)
 
 I additionally made a favicon icon for mobile devices
 
@@ -81,8 +82,8 @@ The technologies used to build this website are the following
 - [OpenWeather API](https://openweathermap.org/api) for getting the current weather data for a given position.
 
 ### Languages 
-- [HTML5](https://en.wikipedia.org/wiki/HTML5) HTML5 was utilized for laying the foundation and structuring the basis of the website content. 
-- [CSS3](https://en.wikipedia.org/wiki/CSS#CSS_3) CSS3 was utilized for the placement and styling of all HTML5 content on the website. 
+- [HTML5](https://en.wikipedia.org/wiki/HTML5) was utilized for laying the foundation and structuring the basis of the website content. 
+- [CSS3](https://en.wikipedia.org/wiki/CSS#CSS_3) was utilized for the placement and styling of all HTML5 content on the website. 
 - [JavaScript](https://en.wikipedia.org/wiki/JavaScript) was utilized for creating animations on the website as well as creating interactivity with, and generating real-time information for the user.
 
 ### Frameworks
