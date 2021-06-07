@@ -40,11 +40,15 @@ The wireframes for this website can be found [here](https://dennischmielewski323
 The structure of the website is laid out in such a way that the interactive map is the main feature of the website. The map itself provides information on the name and address as well as weather information of the place the user clicks on. The map data is presented in a modal that pops up when clicked. Additionally, on larger and medium sized screens the current and coming weather information is presented next to the map in two tables. On smaller mobile devices all weather information is presented in tables underneath the map instead. The data presented outside the map is more extensive and is presented in a way where the current weather information is highlighted in a larger size and the coming weather forecast is presented below that in a smaller size.
 
 ### Design
-To create a pleasant "light and airy" feel of the website the color theme is white and the font color is a type of gray rather than a standard black font color. The headings font style is set to 'Noto Sans KR' and the paragraph text font style is set to 'Open Sans' which both contribute to that light and airy feel I was after.
+To create a pleasant "light and airy" feel of the website the color theme is white and blue and the font color is a type of gray. The headings font style is set to 'Noto Sans KR' and the paragraph text font style is set to 'Open Sans' which both contribute to that light and airy feel I was after.
+
+To get the blue color blue background I wanted and the right font color in the navbar I had to overide the Bootstrap 5 default style with my own style rules by changing their default priorities.
 
 Furthermore the logo is an animated sun which I think adds to that light and happy feeling and the name of the website comes from the sun god in ancient greek mythology which I found quite fitting to go with the theme.
 
-To make the website responsive I initially set out to use CSS Grid but after running into problems with it and not fully understanding it yet, I decided to go with Bootstrap instead to be able to meet the deadline, since I have prior experiece with it.
+To make the website responsive I initially set out to use CSS Grid but after running into problems with it and not fully understanding it yet, I decided to go with Bootstrap instead since I have prior experiece with it.
+
+I added smooth scrolling behavior to the website to make the user experience more pleasant and seamless.
 
 
 ## Features
