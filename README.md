@@ -90,7 +90,7 @@ The technologies used to build this website are the following
 - [Bootstrap v5.0](https://getbootstrap.com/docs/5.0/getting-started/introduction/) Bootstrap 5 was used to implement a responsive mobile-first design on the website.
 
 ## Testing
-
+![results_w3c_markup_validator](https://github.com/tetrapak-dev/milestone-project-2/blob/master/assets/images/results_w3c_markup_validator.png)
 
 
 
