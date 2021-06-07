@@ -66,7 +66,7 @@ The following is a full list of features that will be implemented on a future re
 ## Technologies
 The technologies used to build this website are the following
 
-- [Gitpod](https://www.gitpod.io/) IDE for all code editing.
+- [Gitpod Online IDE](https://www.gitpod.io/) for all code editing.
 - [Firefox Devtools](https://developer.mozilla.org/en-US/docs/Tools) for all functional testing throughout the development process.
 - [Lighthouse](https://developers.google.com/web/tools/lighthouse/) for performance testing of the website.
 - [The W3C Markup Validator](https://validator.w3.org/) for testing of all HTML code.
@@ -85,13 +85,8 @@ The technologies used to build this website are the following
 - [CSS3](https://en.wikipedia.org/wiki/CSS#CSS_3) CSS3 was utilized for the placement and styling of all HTML5 content on the website. 
 - [JavaScript](https://en.wikipedia.org/wiki/JavaScript) was utilized for creating animations on the website as well as creating interactivity with, and generating real-time information for the user.
 
-
-
 ### Frameworks
 - [Bootstrap v5.0](https://getbootstrap.com/docs/5.0/getting-started/introduction/) Bootstrap 5 was used to implement a responsive mobile-first design on the website.
-
-### Libraries 
-
 
 ## Testing
 
@@ -128,14 +123,7 @@ The technologies used to build this website are the following
 #### Bugs Fixed
 - The Font Awesome icons wouldn't work at first. I discovered that Font Awesome had changed their procedure so after insert a script to the HTML document it worked as expected.
 
-
-
-
 #### Bugs Left
-
-
-
-
 
 
 ## Deployment
@@ -155,9 +143,6 @@ To host it I clicked on this repository, then went into setting at the top write
 
 The website can be viewed [here](https://tetrapak-dev.github.io/milestone-project-2/)
 
-
-
-
 ## Credits
 
 
@@ -165,8 +150,6 @@ The website can be viewed [here](https://tetrapak-dev.github.io/milestone-projec
 ### Acknowledgements
 - My mentor [Akshat Garg](https://github.com/akshatnitd) for his advice and support.
 - [Code Institute](https://codeinstitute.net/)'s Slack community and Tutor Support.
-
-
 
 #### This project was made as part of Code Institute's Full Stack Software Development Programme. 
 #### This is for educational purposes only.
