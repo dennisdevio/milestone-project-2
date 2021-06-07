@@ -54,9 +54,11 @@ I added smooth scrolling behavior to the website to make the user experience mor
 To add the favicon to the mobile device I converted my logo image to a .ico file, then opened the website in my Firefox mobile browser and from the menu clicked the "Add to Home screen" option.
 
 #### Features Left to Implement
-Due to time constrains I was not able to implement all the features I ideally wanted to implement.
-The following features will therefore be implemented on a future release:
+I set out to implement a lot of features from the beginning. The two features I started to work on that I later on along the way discovered I had to discard for this release were a JavaScript modal instead of the existing about section and a searchbox where I wanted cities and countries to be searchable. The other features never made it past the idea stage. Due to time constraints I was not able to implement all the features I ideally wanted to implement.
 
+The following is a full list of features that will be implemented on a future release:
+
+- A JavaScript modal window that pops up with the 'about' info instead of the about section.
 - A searchbox where the user can input their location of choice, either a country or a city, to get the weather information that way in addition to clicking the map.
 - A contact form with the option to send an e-mail to the weather service.
 - A dark mode button or slide to provide the option change the white background to a softer color.
