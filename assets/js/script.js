@@ -61,10 +61,10 @@ function showWeatherOnUI(weatherData) {
     const currentTemp = convertTempFromKelvinToCelcius(mainData.temp);
    
     document.getElementById('mainData').innerHTML = `
-       <div>Maximum Temperature: ${maxTemp} °C</div>
-       <div>Minimum Temperature: ${minTemp} °C</div>
-       <div>Current Temperature: ${currentTemp} °C</div>
-       <div>Feels Like: ${feelsLikeTemp} °C</div>
+       <div>Maximum temperature: ${maxTemp} °C</div>
+       <div>Minimum temperature: ${minTemp} °C</div>
+       <div>Current temperature: ${currentTemp} °C</div>
+       <div>Feels like: ${feelsLikeTemp} °C</div>
     `;
     console.log(weatherData);
 }
