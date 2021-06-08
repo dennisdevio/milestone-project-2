@@ -1,3 +1,6 @@
+
+// FUNCTION TO DISPLAY 'GOOGLE MAPS' WITH LATITUDE AND LONGITUDE ON UI
+
 function initMap() {
     
     const myLatLng = {"lat": 48.877129237390534, "lng": 16.348485731049607};
@@ -32,6 +35,8 @@ function initMap() {
 
 
 
+// FUNCTION TO GET WEATHER DATA FROM 'OPENWEATHER' API FOR ANY LATITUDES & LONGITUDES
+
 function getWeatherFromLatLng({lat,lng}) {
     
     fetch(`https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lng}&appid=1e6714aaee09a8d6bf6a45044ae56971`)
@@ -46,6 +51,8 @@ function getWeatherFromLatLng({lat,lng}) {
 
 
 
+// FUNCTION TO SHOW WEATHER DATA ON UI OBTAINED FROM 'OPENWEATHER' API FOR ANY CLICKED 'GOOGLE MAPS' LATITUDE & LONGITUDE 
+
 function showWeatherOnUI(weatherData) {
    
     const mainData = weatherData.main;
@@ -56,7 +63,7 @@ function showWeatherOnUI(weatherData) {
     const currentTemp = convertTempFromKelvinToCelcius(mainData.temp);
    
     document.getElementById('mainData').innerHTML = `
-      
+
         <div>Current temp: <b>${currentTemp} °C</b></div>
         <div>Feels like: <b>${feelsLikeTemp} °C</b></div>
         <div>Maximum temp: <b>${maxTemp} °C</b></div>
@@ -67,6 +74,8 @@ function showWeatherOnUI(weatherData) {
 }
 
 
+
+// FUNCTION TO CONVERT TEMPERATURE OBTAINED FROM 'OPENWEATHER' API DISPLAYED IN KELVIN TO CELCIUS 
 
 function convertTempFromKelvinToCelcius(tempInK) {
     
