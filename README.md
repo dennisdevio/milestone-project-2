@@ -97,6 +97,9 @@ Results from W3C Markup Validator test
 Results from W3C CSS Validator test
 ![results_w3c_css_validator](https://github.com/tetrapak-dev/milestone-project-2/blob/master/assets/images/results_w3c_css_validator.png)
 
+Results from Lighthouse performance test
+![results_2021_06_08_lighthouse_report_viewer](https://github.com/tetrapak-dev/milestone-project-2/blob/master/assets/images/results_2021_06_08_lighthouse_report_viewer.png)
+
 #### Bugs Fixed
 - The Font Awesome icons wouldn't work at first. I discovered that Font Awesome had changed their procedure so after insert a script to the HTML document it worked as expected.
 - The hamburger menu button wouldn't work at first, it turned out to be missing script which I later implemented. In the newest Bootstrap 5 version there are scripts required that weren't needed in Bootstrap 4.
