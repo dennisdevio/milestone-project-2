@@ -73,6 +73,6 @@ function showWeatherOnUI(weatherData) {
 
 function convertTempFromKelvinToCelcius(tempInK) {
     
-    return parseFloat(((tempInK-273.15).toFixed(2);
+    return parseFloat((tempInK-273.15).toFixed(1));
 }
 
