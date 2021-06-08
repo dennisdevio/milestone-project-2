@@ -55,11 +55,11 @@ function showWeatherOnUI(weatherData) {
    
     const mainData = weatherData.main;
 
-    const maxTemp =  mainData.temp_max;
-    const minTemp =  mainData.temp_min;
-    const feelsLikeTemp = mainData.feels_like;
-    const currentTemp = mainData.temp;
-
+    const maxTemp =  convertTempFromKelvinToCelcius(mainData.temp_max);
+    const minTemp =  convertTempFromKelvinToCelcius(mainData.temp_min);
+    const feelsLikeTemp = convertTempFromKelvinToCelcius(mainData.feels_like);
+    const currentTemp = convertTempFromKelvinToCelcius(mainData.temp);
+   
     document.getElementById('mainData').innerHTML = `
        <div>Maximum Temperature: ${maxTemp}</div>
        <div>Minimum Temperature: ${minTemp}</div>
@@ -69,4 +69,10 @@ function showWeatherOnUI(weatherData) {
     console.log(weatherData);
 }
 
+
+
+function convertTempFromKelvinToCelcius(tempInK) {
+    
+    return parseFloat(((tempInK-273.15).toFixed(2);
+}
 
