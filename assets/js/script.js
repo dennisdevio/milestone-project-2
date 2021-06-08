@@ -42,8 +42,10 @@ function initMap() {
 function getWeatherFromLatLng({lat,lng}) {
     
     fetch(`https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lng}&appid=1e6714aaee09a8d6bf6a45044ae56971`)
+
         .then((resp) => resp.json())
         .then((data) => {
+           
             showWeatherOnUI(data);
             return data;
         })
@@ -61,10 +63,12 @@ function showWeatherOnUI(weatherData) {
     const currentTemp = convertTempFromKelvinToCelcius(mainData.temp);
    
     document.getElementById('mainData').innerHTML = `
-       <div>Maximum temperature: ${maxTemp} °C</div>
-       <div>Minimum temperature: ${minTemp} °C</div>
-       <div>Current temperature: ${currentTemp} °C</div>
-       <div>Feels like: ${feelsLikeTemp} °C</div>
+      
+       <div>Current temp: <b>${currentTemp} °C</b></div>
+       <div>Feels like: <b>${feelsLikeTemp} °C</b></div>
+       <div>Maximum temp: <b>${maxTemp} °C</b></div>
+       <div>Minimum temp: <b>${minTemp} °C</b></div>
+
     `;
     console.log(weatherData);
 }
