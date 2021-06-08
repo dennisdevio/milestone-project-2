@@ -1,25 +1,21 @@
 function initMap() {
     
-    const myLatlng = {"lat": 48.877129237390534, "lng": 16.348485731049607};
+    const myLatLng = {"lat": 48.877129237390534, "lng": 16.348485731049607};
     const map = new google.maps.Map(document.getElementById("map"), {
         zoom: 4.6,
-        center: myLatlng,
+        center: myLatLng,
     });
 
-    // Create the initial InfoWindow.
     let infoWindow = new google.maps.InfoWindow({
         content: "<b>Click anywhere to see the current weather</b>",
-        position: myLatlng,
+        position: myLatLng,
     });
     infoWindow.open(map);
 
-    // Configure the click listener.
     map.addListener("click", async(mapsMouseEvent) => {
         
-        // Close the current InfoWindow.
         infoWindow.close();
         
-        // Create a new InfoWindow.
         infoWindow = new google.maps.InfoWindow({
             position: mapsMouseEvent.latLng,
         });
@@ -28,12 +24,9 @@ function initMap() {
         infoWindow.setContent(
             JSON.stringify(latLngJSON, null, 2)
         );
-        
         infoWindow.open(map);
-        // Fetch weather
         
         getWeatherFromLatLng(latLngJSON);
-        //Show weather on UI
     });
 }
 
@@ -64,10 +57,10 @@ function showWeatherOnUI(weatherData) {
    
     document.getElementById('mainData').innerHTML = `
       
-       <div>Current temp: <b>${currentTemp} °C</b></div>
-       <div>Feels like: <b>${feelsLikeTemp} °C</b></div>
-       <div>Maximum temp: <b>${maxTemp} °C</b></div>
-       <div>Minimum temp: <b>${minTemp} °C</b></div>
+        <div>Current temp: <b>${currentTemp} °C</b></div>
+        <div>Feels like: <b>${feelsLikeTemp} °C</b></div>
+        <div>Maximum temp: <b>${maxTemp} °C</b></div>
+        <div>Minimum temp: <b>${minTemp} °C</b></div>
 
     `;
     console.log(weatherData);
