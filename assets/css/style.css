@@ -70,7 +70,7 @@ button:hover {
 
 .about {
     height: 400px;
-    width: 86%;
+    max-width: 86%;
     margin-top: 110px;
     padding-top: 45px;
     padding-bottom: 10px;
@@ -98,8 +98,9 @@ button:hover {
 }
 
 #mainData {
-    width: 400px;
     height: 400px;
+    width: 400px;
+    max-width: 86%;
     box-shadow: rgba(17, 17, 26, 0.4) 0px 3px 15px 3px;
     margin: 50px auto;
     background: rgba(255, 215, 37, 0.992);
