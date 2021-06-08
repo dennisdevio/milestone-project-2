@@ -66,8 +66,8 @@ function showWeatherOnUI(weatherData) {
 
     const maxTemp =  mainData.temp_max;
     const minTemp =  mainData.temp_min;
-    const feelsLikeTemp = mainData.feels_like_temp;
-    const currentTemp = mainData.current_temp;
+    const feelsLikeTemp = mainData.feels_like;
+    const currentTemp = mainData.temp;
 
     document.getElementById('mainData').innerHTML = `
        <div>Maximum temp ${maxTemp}</div>
