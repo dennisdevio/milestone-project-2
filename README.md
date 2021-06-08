@@ -78,7 +78,7 @@ The technologies used to build this website are the following
 - [favicon.io](https://favicon.io/) for converting the image compressed with TinyPNG, to '.ico' format to be used as the Favicon. 
 - [Google Fonts](https://fonts.google.com/share?selection.family=Noto%20Sans%20KR%7COpen%20Sans) for the fonstyles 'Noto Sans KR' and 'Open Sans' used on the website. 
 - [Font Awesome](https://fontawesome.com/start) for all website icons.
-- [Google Maps JavaScript API](https://developers.google.com/maps/documentation/javascript/examples/event-click-latlng)for getting the latitude and longitude coordinates on the map when clicked.
+- [Google Maps JavaScript API](https://developers.google.com/maps/documentation/javascript/examples/event-click-latlng) for getting the latitude and longitude coordinates on the map when clicked.
 - [Google Maps Geocoding API](https://developers.google.com/maps/documentation/geocoding/overview) for getting the location name of the position clicked.
 - [OpenWeather API](https://openweathermap.org/api) for getting the current weather data for the given position.
 
