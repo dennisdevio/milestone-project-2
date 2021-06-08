@@ -70,10 +70,10 @@ function showWeatherOnUI(weatherData) {
     const currentTemp = mainData.temp;
 
     document.getElementById('mainData').innerHTML = `
-       <div>Maximum temp ${maxTemp}</div>
-       <div>Minimum temp ${minTemp}</div>
-       <div>Feels like temp ${feelsLikeTemp}</div>
-       <div>Current temp ${currentTemp}</div>
+       <div>Maximum Temperature: ${maxTemp}</div>
+       <div>Minimum Temperature: ${minTemp}</div>
+       <div>Current Temperature: ${currentTemp}</div>
+       <div>Feels Like: ${feelsLikeTemp}</div>
     `;
     console.log(weatherData);
 }
