@@ -8,7 +8,7 @@ function initMap() {
 
     // Create the initial InfoWindow.
     let infoWindow = new google.maps.InfoWindow({
-        content: "Click the map to get Lat/Lng!",
+        content: "<b>Click anywhere to see the current weather</b>",
         position: myLatlng,
     });
     infoWindow.open(map);
