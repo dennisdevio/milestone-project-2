@@ -25,7 +25,9 @@ function initMap() {
         
         const latLngJSON = mapsMouseEvent.latLng.toJSON();
         infoWindow.setContent(
-            JSON.stringify(latLngJSON, null, 2)
+            `<b>Latitude:</b> ${latLngJSON.lat},
+            <br>
+            <b>Longitude:</b> ${latLngJSON.lng}`
         );
         infoWindow.open(map);
         
