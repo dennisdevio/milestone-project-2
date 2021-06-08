@@ -50,7 +50,7 @@ function getFormattedAddressfromLatLng(lat, lng) {
 
 function getWeatherFromLatLng({lat,lng}) {
     
-    fetch(`https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lng}&appid=1e6714aaee09a8d6bf6a45044ae56971`).
+    fetch(`https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lng}&appid=1e6714aaee09a8d6bf6a45044ae56971`)
         .then((resp) => resp.json())
         .then((data) => {
             showWeatherOnUI(data);
