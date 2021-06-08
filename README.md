@@ -78,8 +78,9 @@ The technologies used to build this website are the following
 - [favicon.io](https://favicon.io/) for converting the image compressed with TinyPNG, to '.ico' format to be used as the Favicon. 
 - [Google Fonts](https://fonts.google.com/share?selection.family=Noto%20Sans%20KR%7COpen%20Sans) for the fonstyles 'Noto Sans KR' and 'Open Sans' used on the website. 
 - [Font Awesome](https://fontawesome.com/start) for all website icons.
-- [Google Maps Geocoding API](https://developers.google.com/maps/documentation/geocoding/overview) for getting the latitude and longitude coordinates on the map.
-- [OpenWeather API](https://openweathermap.org/api) for getting the current weather data for a given position.
+- [Google Maps JavaScript API](https://developers.google.com/maps/documentation/javascript/examples/event-click-latlng)for getting the latitude and longitude coordinates on the map when clicked.
+- [Google Maps Geocoding API](https://developers.google.com/maps/documentation/geocoding/overview) for getting the location name of the position clicked.
+- [OpenWeather API](https://openweathermap.org/api) for getting the current weather data for the given position.
 
 ### Languages 
 - [HTML5](https://en.wikipedia.org/wiki/HTML5) was utilized for laying the foundation and structuring the basis of the website content. 
@@ -98,7 +99,7 @@ Results from W3C CSS Validator test
 
 #### Bugs Fixed
 - The Font Awesome icons wouldn't work at first. I discovered that Font Awesome had changed their procedure so after insert a script to the HTML document it worked as expected.
-- The hamburger menu button wouldn't work at first, it turned out to be missing script which I later implemented. In the newest Bootstrap 5 version there are scripts required that werent' need in Bootstrap 4.
+- The hamburger menu button wouldn't work at first, it turned out to be missing script which I later implemented. In the newest Bootstrap 5 version there are scripts required that weren't needed in Bootstrap 4.
 
 #### Bugs Left
 
@@ -107,9 +108,9 @@ Results from W3C CSS Validator test
 The deployment of this project was accomplished using Gitpod and Git. 
 I used Gitpod to write all code and push all changes made to my Github Repository using Git from the Gitpod terminal.
 
+### Repository
 If you want to view this website locally on your computer click on your preferred clone method in the upper right-hand side corner of this repository, open your cloned repository in your IDE of choice and run the website on a local server from there.
 
-### Repository
 This project reposity is hosted on  
 - [GitHub](https://github.com/) - you can find it at [this link](https://tetrapak-dev.github.io/milestone-project-2/)
 
