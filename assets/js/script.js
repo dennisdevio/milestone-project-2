@@ -39,15 +39,6 @@ function initMap() {
 
 
 
-function getFormattedAddressfromLatLng(lat, lng) {
-    // Make API call
-    fetch("https://maps.googleapis.com/maps/api/geocode/json?latlng=lat,lng&key=1e6714aaee09a8d6bf6a45044ae56971").then((data) => {
-        return data.results[0].formatted_address;
-    })
-}
-
-
-
 function getWeatherFromLatLng({lat,lng}) {
     
     fetch(`https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lng}&appid=1e6714aaee09a8d6bf6a45044ae56971`)
