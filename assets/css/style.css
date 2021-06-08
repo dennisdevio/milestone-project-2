@@ -28,14 +28,9 @@ p {
 
 /* NAVBAR */
 
-header {
-    height: 100px;
-}
-
 .navbar {
     font-size: 140%;
     font-family: 'Noto Sans KR', sans-serif;
-    height: 58px;
     background-color: #8ce2ff;
     box-shadow: rgba(17, 17, 26, 0.5) 0px 0px 5px 1px;
 }
