@@ -67,17 +67,26 @@ The following is a full list of features that will be implemented on a future re
 ## Technologies
 The technologies used to build this website are the following
 
+#### Development
 - [Gitpod Online IDE](https://www.gitpod.io/) for all code editing.
 - [Firefox Devtools](https://developer.mozilla.org/en-US/docs/Tools) for all functional testing throughout the development process.
+
+#### Testing
 - [Lighthouse](https://developers.google.com/web/tools/lighthouse/) for performance testing of the website.
 - [The W3C Markup Validator](https://validator.w3.org/) for testing of all HTML code.
 - [The W3C CSS Validator](https://jigsaw.w3.org/css-validator/) for testing of all CSS code.
 - [JSHint](https://jshint.com/) for testing of all JavaScript code.
+
+#### Images
 - [Pixabay](https://pixabay.com/) for the image used in the Favicons. 
 - [TinyPNG](https://tinypng.com/) for compressing the image downloaded from Pixabay to decrease load times of the website.
+
+#### Fonts & Icons
 - [favicon.io](https://favicon.io/) for converting the image compressed with TinyPNG, to '.ico' format to be used as the Favicon. 
 - [Google Fonts](https://fonts.google.com/share?selection.family=Noto%20Sans%20KR%7COpen%20Sans) for the fonstyles 'Noto Sans KR' and 'Open Sans' used on the website. 
 - [Font Awesome](https://fontawesome.com/start) for all website icons.
+
+#### API's
 - [Google Maps JavaScript API](https://developers.google.com/maps/documentation/javascript/examples/event-click-latlng) for getting the latitude and longitude coordinates on the map when clicked.
 - [OpenWeather API](https://openweathermap.org/api) for getting the current weather data for the given position.
 
