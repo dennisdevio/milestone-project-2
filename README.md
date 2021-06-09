@@ -132,8 +132,8 @@ The website can be viewed [here](https://tetrapak-dev.github.io/milestone-projec
 
 
 ### Acknowledgements
-- My mentor [Akshat Garg](https://github.com/akshatnitd) for his advice and support.
-- [Code Institute](https://codeinstitute.net/)'s Slack community and Tutor Support.
+- My mentor [Akshat Garg](https://github.com/akshatnitd) for his very much appreciated and needed advice and support.
+- [Code Institute](https://codeinstitute.net/)'s Student Care and Slack community.
 
 #### This project was made as part of Code Institute's Full Stack Software Development Programme. 
 #### This is for educational purposes only.
