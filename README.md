@@ -33,8 +33,7 @@ The wireframes were created using - [InVision](https://www.invisionapp.com/).
 The wireframes for this website can be found [here](https://dennischmielewski323696.invisionapp.com/freehand/Helios-Weather-Forecast-bgy1wmerW)
 
 ### Structure
-The structure of the website is laid out in such a way that the interactive map is the main feature of the website. The map itself provides information on the name and address as well as weather information of the place the user clicks on. The map data is presented in a modal that pops up when clicked. Additionally, on larger and medium sized screens the current and coming weather information is presented next to the map in two tables. On smaller mobile devices all weather information is presented in tables underneath the map instead. The data presented outside the map is more extensive and is presented in a way where the current weather information is highlighted in a larger size and the coming weather forecast is presented below that in a smaller size.
-
+The structure of the website is laid out in such a way that the interactive map is the main feature of the website. The map itself provides information on the name and address as well as weather information of the place the user clicks on. The map data is presented in a about section. Additionally, weather information is presented underneath the map in a table. The data presented outside the map is highlighted in a yellow card to draw attention.
 ### Design
 To create a pleasant "light and airy" feel of the website the color theme is white and blue and the font color is a type of gray. The headings font style is set to 'Noto Sans KR' and the paragraph text font style is set to 'Open Sans' which both contribute to that light and airy feel I was after.
 
@@ -45,6 +44,8 @@ Furthermore the logo is an animated sun which I think adds to that light and hap
 To make the website responsive I initially set out to use CSS Grid but after running into problems with it and not fully understanding it yet, I decided to go with Bootstrap instead since I have prior experiece with it.
 
 I added smooth scrolling behavior to the website to make the user experience more pleasant and seamless.
+
+Due to time constraints I had left features unimplemented due to a too large scope.
 
 ## Features
 - Responsive Design across all device sizes, including a hamburger menu button on smaller screens.
@@ -141,7 +142,7 @@ The JavaScript validator test came back with one error at first, I had missed a 
 - The hamburger menu button wouldn't work at first, it turned out to be missing script which I later implemented. In the newest Bootstrap 5 version there are scripts required that weren't needed in Bootstrap 4.
 
 #### Bugs Left
-
+- console log error that came from the google map external style sheet, as I did not knwo how to fix it.
 
 ## Deployment
 The deployment of this project was accomplished using Gitpod and Git for version control. 
