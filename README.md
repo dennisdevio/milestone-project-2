@@ -23,7 +23,7 @@ My goal was to create an appealing and easily comprehensible website design that
 #### Returning User Goals
 - As a returning user I want to know your website is reliable on all devices I might use.
 - As a returning user I want the information you provide to be presented in a clear way on all devices I might use.
-- As a returning user I want to know the information you provide is relaible and accurate in any given situation.
+- As a returning user I want to know the information you provide is reliable and accurate in any given situation.
 
 ### Wireframes
 I decided to go with three wireframes, for large screens, medium size screens and small screens. Each wireframe contains two main sections, one with an interactive map and the other with weather forecast information such as sunny, cloudy or rainy weather, expected temperatures and so on.
@@ -99,17 +99,42 @@ The technologies used to build this website are the following
 - [Bootstrap v5.0](https://getbootstrap.com/docs/5.0/getting-started/introduction/) Bootstrap 5 was used to implement a responsive mobile-first design on the website.
 
 ## Testing
+Due to time constraints and several difficulties along the way I had to minimize the scope several times. I would ideally have implemented more weather information such as humidity, cloudiness and wind. 
+Ultimately the website achieved its purpose when tested for all user stories, it is live and working so I am pleased with the result.
+
+Testing was done for all user stories on the following devices and operating systems:
+
+- Manually tested on Android on a Fairphone 3,  
+- Manually tested on Linux Mint on an Acer Swift 3 Laptop.
+- Manually tested on Windows 10 on an Asus Desktop.
+
+- Tested on Iphone 5, 6 and 'X' using Firefox Devtools.
+
+- Test on an Ipad and Nexus Tablet using Firefox Devtools.
+
+
 Results from Lighthouse performance test
 ![results_2021_06_08_lighthouse_report_viewer](https://github.com/tetrapak-dev/milestone-project-2/blob/master/assets/images/results_2021_06_08_lighthouse_report_viewer.png)
+
+After doing the Lighthouse test the first time I got a score of 93% for best practices, which whas the lowest scored category. The report suggested that should implement a color theme meta tag which I did but it did not improve my score. I consequently removed it since I think it looks better without a color theme.
+Furthermore I tried to improve the score of 93% by troubleshooting console.log errors that came up but those errors turned out to be due to the external style sheet for the Google Map on the site. I left it like it is in the end since I did not manage to fix that issue.
+Overall the score I good so am okay with the result. 
+
 
 Results from W3C Markup Validator test
 ![results_w3c_markup_validator](https://github.com/tetrapak-dev/milestone-project-2/blob/master/assets/images/results_w3c_markup_validator.png)
 
+After doing the html validator test the first time the only issue was one stray </i> tag which I removed and then the test came back clear.
+
 Results from W3C CSS Validator test
 ![results_w3c_css_validator](https://github.com/tetrapak-dev/milestone-project-2/blob/master/assets/images/results_w3c_css_validator.png)
 
+The CSS validator test result came back clear with no issues at all.
+
 Results from JSHint Validator test
 ![results_jshint_ javascript_validator.png](https://github.com/tetrapak-dev/milestone-project-2/blob/master/assets/images/results_jshint_%20javascript_validator.png)
+
+The JavaScript validator test came back with one error at first, I had missed a semicolon at the end of a statement which I fixed. Several warnings came up about the new ES6 syntax but no major issues were present in the code.
 
 #### Bugs Fixed
 - The Font Awesome icons wouldn't work at first. I discovered that Font Awesome had changed their procedure so after insert a script to the HTML document it worked as expected.
