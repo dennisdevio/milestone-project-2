@@ -48,7 +48,7 @@ function getWeatherFromLatLng({lat,lng}) {
            
             showWeatherOnUI(data);
             return data;
-        })
+        });
 }
 
 
