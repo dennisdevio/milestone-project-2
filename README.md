@@ -119,11 +119,14 @@ Results from JSHint Validator test
 
 
 ## Deployment
-The deployment of this project was accomplished using Gitpod and Git. 
+The deployment of this project was accomplished using Gitpod and Git for version control. 
 I used Gitpod to write all code and push all changes made to my Github Repository using Git from the Gitpod terminal.
 
 ### Repository
-If you want to view this website locally on your computer click on your preferred clone method in the upper right-hand side corner of this repository, open your cloned repository in your IDE of choice and run the website on a local server from there.
+If you want to view this website locally on your computer:
+- Click on your preferred clone method in the upper right-hand side corner of this repository.
+- Open your cloned repository in your IDE of choice.
+- Run the website on a local server from there.
 
 This project reposity is hosted on  
 - [GitHub](https://github.com/) - you can find it at [this link](https://tetrapak-dev.github.io/milestone-project-2/)
@@ -131,7 +134,12 @@ This project reposity is hosted on
 ### Hosting Platform
 This website is hosted using [GitHub Pages](https://pages.github.com/) and is deployed directly from the 'master' branch. The deployed website will update automatically when new changes are committed to the master branch. 
 
-To host it I clicked on this repository, then went into setting at the top write corner and from there chose the 'Pages' tab on the left-hand side menu. From there I chose the 'master' branch and the 'root' folder and clicked save. After about 30 minutes or so, the site was live at Github Pages.
+To host this website:
+- I clicked on this repository.
+- Went into 'settings' at the top-right corner.
+- Then I chose the 'Pages' tab on the left-hand side menu. 
+- From there I chose the 'master' branch and the 'root' folder and clicked save. 
+- After about 30 minutes or so, the site was live at Github Pages.
 
 The website can be viewed [here](https://tetrapak-dev.github.io/milestone-project-2/)
 
