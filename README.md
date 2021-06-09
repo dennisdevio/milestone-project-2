@@ -128,7 +128,7 @@ To host it I clicked on this repository, then went into setting at the top write
 The website can be viewed [here](https://tetrapak-dev.github.io/milestone-project-2/)
 
 ## Credits
-
+- [Bootstrap v5.0 documentation](https://getbootstrap.com/docs/5.0/getting-started/introduction/) especially on how to implement hamburger button using scripts and right aligning menu links using flex utilities, as the procedures had changed a bit since Bootstrap4 which I had experience with prior to this project.
 
 
 ### Acknowledgements
