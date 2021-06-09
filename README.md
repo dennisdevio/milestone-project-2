@@ -144,7 +144,11 @@ To host this website:
 The website can be viewed [here](https://tetrapak-dev.github.io/milestone-project-2/)
 
 ## Credits
+- [Font Awesome documentaion](https://fontawesome.com/start) on how to use kits on the new version, since the procedure had changed from the previous version
 - [Bootstrap v5.0 documentation](https://getbootstrap.com/docs/5.0/getting-started/introduction/) especially on how to implement hamburger button using scripts and right aligning menu links using flex utilities, as the procedures had changed a bit since Bootstrap4 which I had experience with prior to this project.
+- [Google Maps JavaScript API documentation](https://developers.google.com/maps/documentation/javascript/examples/event-click-latlng) on how to get latitude & longitude displayed on the map.
+- [OpenWeather API documentation](https://openweathermap.org/appid) on how to get the current weather data for a given position.
+
 
 
 ### Acknowledgements
