@@ -91,14 +91,17 @@ The technologies used to build this website are the following
 - [Bootstrap v5.0](https://getbootstrap.com/docs/5.0/getting-started/introduction/) Bootstrap 5 was used to implement a responsive mobile-first design on the website.
 
 ## Testing
+Results from Lighthouse performance test
+![results_2021_06_08_lighthouse_report_viewer](https://github.com/tetrapak-dev/milestone-project-2/blob/master/assets/images/results_2021_06_08_lighthouse_report_viewer.png)
+
 Results from W3C Markup Validator test
 ![results_w3c_markup_validator](https://github.com/tetrapak-dev/milestone-project-2/blob/master/assets/images/results_w3c_markup_validator.png)
 
 Results from W3C CSS Validator test
 ![results_w3c_css_validator](https://github.com/tetrapak-dev/milestone-project-2/blob/master/assets/images/results_w3c_css_validator.png)
 
-Results from Lighthouse performance test
-![results_2021_06_08_lighthouse_report_viewer](https://github.com/tetrapak-dev/milestone-project-2/blob/master/assets/images/results_2021_06_08_lighthouse_report_viewer.png)
+Results from JSHint Validator test
+![results_jshint_ javascript_validator.png](https://github.com/tetrapak-dev/milestone-project-2/blob/master/assets/images/results_jshint_%20javascript_validator.png)
 
 #### Bugs Fixed
 - The Font Awesome icons wouldn't work at first. I discovered that Font Awesome had changed their procedure so after insert a script to the HTML document it worked as expected.
