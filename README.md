@@ -3,7 +3,7 @@ This website called Helios is a real time weather forecast service that provides
 The purpose of this website is to provide easily accessible real-time weather information in an appealing and interactive way across all devices and screen sizes.
 
 ## Showcase
-Click [here](https://tetrapak-dev.github.io/milestone-project-2/) to view the website and see the weather forecast in real-time.
+Click [here](https://dennisdevio.github.io/milestone-project-2/) to view the website and see the weather forecast in real-time.
 ![showcase_helios_weather_forecast](https://github.com/tetrapak-dev/milestone-project-2/blob/master/assets/images/showcase_helios_weather_forecast.png)
 
 I additionally made a favicon icon for mobile devices
@@ -155,7 +155,7 @@ If you want to view this website locally on your computer:
 - Run the website on a local server from there.
 
 This project reposity is hosted on  
-- [GitHub](https://github.com/) - you can find it at [this link](https://tetrapak-dev.github.io/milestone-project-2/)
+- [GitHub](https://github.com/) - you can find it at [this link](https://github.com/dennisdevio/milestone-project-2)
 
 ### Hosting Platform
 This website is hosted using [GitHub Pages](https://pages.github.com/) and is deployed directly from the 'master' branch. The deployed website will update automatically when new changes are committed to the master branch. 
@@ -167,7 +167,7 @@ To host this website:
 - From there I chose the 'master' branch and the 'root' folder and clicked save. 
 - After about 30 minutes or so, the site was live at Github Pages.
 
-The website can be viewed [here](https://tetrapak-dev.github.io/milestone-project-2/)
+The website can be viewed [here](https://dennisdevio.github.io/milestone-project-2/)
 
 ## Credits
 - [Font Awesome documentaion](https://fontawesome.com/start) on how to use kits on the new version, since the procedure had changed from the previous version
