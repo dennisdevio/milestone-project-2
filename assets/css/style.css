@@ -142,6 +142,12 @@ footer i:hover {
     color: rgba(17, 17, 26, 0.5);
 }
 
-.copyright:hover {
-   color: #060606;
+footer a {
+    color: #060606;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: rgba(17, 17, 26, 0.5);
+    text-decoration: none;
 }
