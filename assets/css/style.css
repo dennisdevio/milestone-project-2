@@ -1,7 +1,7 @@
+
 /* IMPORTED STYLESHEET */
 
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&family=Open+Sans&display=swap');
-
 
 
 /* BODY */
@@ -23,7 +23,6 @@ h1 {
 p {
     font-family: 'Open Sans', sans-serif;
 }
-
 
 
 /* NAVBAR */
@@ -59,7 +58,6 @@ button:hover {
 }
 
 
-
 /* ABOUT SECTION */
 
 .about {
@@ -81,7 +79,6 @@ button:hover {
     font-weight: bold;
     font-style: italic;
 }
-
 
 
 /* WEATHER DATA SECTION */
@@ -108,9 +105,8 @@ button:hover {
 } 
 
 #mainData div {
-    margin: 20px;
+    margin: 15px;
 }
-
 
 
 /* FOOTER */

@@ -36,12 +36,11 @@ function initMap() {
 }
 
 
-
 // FUNCTION TO GET WEATHER DATA FROM 'OPENWEATHER' API FOR ANY LATITUDES & LONGITUDES
 
 function getWeatherFromLatLng({lat,lng}) {
     
-    fetch(`https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lng}&appid=1e6714aaee09a8d6bf6a45044ae56971`)
+    fetch(`https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lng}&appid=2d420febf90e081391f8f4596c78f54a`)
 
         .then((resp) => resp.json())
         .then((data) => {
@@ -52,29 +51,27 @@ function getWeatherFromLatLng({lat,lng}) {
 }
 
 
-
 // FUNCTION TO SHOW WEATHER DATA ON UI OBTAINED FROM 'OPENWEATHER' API FOR ANY CLICKED 'GOOGLE MAPS' LATITUDE & LONGITUDE 
 
 function showWeatherOnUI(weatherData) {
    
     const mainData = weatherData.main;
 
-    const maxTemp =  convertTempFromKelvinToCelcius(mainData.temp_max);
-    const minTemp =  convertTempFromKelvinToCelcius(mainData.temp_min);
-    const feelsLikeTemp = convertTempFromKelvinToCelcius(mainData.feels_like);
     const currentTemp = convertTempFromKelvinToCelcius(mainData.temp);
-   
+    const feelsLikeTemp = convertTempFromKelvinToCelcius(mainData.feels_like);
+    const maxTemp = convertTempFromKelvinToCelcius(mainData.temp_max);
+    const minTemp = convertTempFromKelvinToCelcius(mainData.temp_min);
+    const humidity = mainData.humidity;
+    
     document.getElementById('mainData').innerHTML = `
 
         <div>Current temp: <b>${currentTemp} °C</b></div>
         <div>Feels like: <b>${feelsLikeTemp} °C</b></div>
-        <div>Maximum temp: <b>${maxTemp} °C</b></div>
-        <div>Minimum temp: <b>${minTemp} °C</b></div>
-
+        <div>Max observed temp: <b>${maxTemp} °C</b></div>
+        <div>Min observed temp: <b>${minTemp} °C</b></div>
+        <div>Humidity: <b>${humidity} %</b></div>
     `;
-    console.log(weatherData);
 }
-
 
 
 // FUNCTION TO CONVERT TEMPERATURE OBTAINED FROM 'OPENWEATHER' API DISPLAYED IN KELVIN TO CELCIUS 
