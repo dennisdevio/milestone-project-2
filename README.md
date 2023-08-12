@@ -162,11 +162,10 @@ This project reposity is hosted on
 This website is hosted using [Netlify](https://www.netlify.com/) and is deployed directly from the 'master' branch. The deployed website will update automatically when new changes are committed to the master branch. 
 
 To host this website:
-- I clicked on this repository.
-- Went into 'settings' at the top-right corner.
-- Then I chose the 'Pages' tab on the left-hand side menu. 
-- From there I chose the 'master' branch and the 'root' folder and clicked save. 
-- After about 30 minutes or so, the site was live at Github Pages.
+- I connected my Github repositories to Netlify.
+- I chose this repository and clicked on the deployment configuration tab. 
+- From there I chose the 'master' branch to deploy the project from and clicked save. 
+- After about 15 minutes or so, the site was live on Netlify.
 
 The website can be viewed [here](https://dennisdevio-milestone-project-2.netlify.app/)
 
